@@ -18,14 +18,15 @@
 	<script src="js/modernizr.custom.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript" src="js/sketch.js"></script>
+
 </head>
 <body>
 	<div class="darkcontainer">
 		<!-- Top Navigation -->
 		<div class="codrops-top clearfix">
 			<div class="container">
-				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/PageLoadingEffects/"><span>See a User Profile</span></a>
-				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19004"><span>First Bits+Blocks Certification by Diego Roderiguez</span></a></span>
+				<a class="codrops-icon codrops -icon-prev" href="http://tympanus.net/Development/PageLoadingEffects/"><span>See a User Profile</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19004"><span>See First Bits+Blocks Certification by Diego Roderiguez</span></a></span>
 			</div>
 			<img src="img/header.png" alt="header" width="100%" vspace="0">
 		</div>
@@ -52,21 +53,24 @@
 							<h2>You are about to put something<br>on the blockchain forever.</h2> 
 							<p>This means that everyone will be able to see it, you will not be able to delete or edit it, and nobody else will be able to delete or edit it, <b>forever</b>. Although incredibly beneficial for some purposes, there is great responsibility that comes with this. You are about to immutably be a part of blockchain history!</p>
 							<p>You can still edit your certification message by exiting this window before putting it on the blockchain.</p>
-							<a href="/processing.html"><button type="button">Submit</button></a>
-						<canvas id="SketchPad" width="800" height="600"></canvas>
- 
-	<script type="text/javascript">
-	  $(function() {
-	    $('#SketchPad').sketch();
-	  });
-	</script>
+							<p> </p>
+							<h4>USE YOUR MOUSE OR FINGER TO SIGN BELOW</h4>	
+							<canvas id="SketchPad" width="700" height="100" style="border:3px solid white;"></canvas>
+							<div class="morph-button morph-button-overlay morph-button-fixed">
+								<button type="button" style="background-color:#e85657"><a href="progress.html" style="color:white">Submit</a></button>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div><!-- morph-button -->
+				</div><!-- morph-button -->
+			</div>
 			<p><center><a href="https://shuyag.github.com/vericv/about">Learn More</a></center></p>
 		</section>
 	</div><!-- /container -->
+	<script type="text/javascript">
+	$(function() {
+		$('#SketchPad').sketch();
+	});
+	</script>
 	<script src="js/classie.js"></script>
 	<script>
 	(function() {
