@@ -35,9 +35,12 @@
 			<h1> </h1>
 			<section class="content bgcolor-3">
 				<span class="centered input input--makiko">
-					<input class="input__field input__field--makiko" type="text" id="input-16" />
+					<script type="text/javascript">var submitted=false;</script> 
+            		<iframe name="hidden_iframe" id="hidden_iframe"style="display:none;" onload="if(submitted){window.location='progress.html';}"></iframe>
+            		<form id="contact-form" role="form" action="https://docs.google.com/forms/d/1412_XlDqnTlNnsBDsnS9WY60QI-tPiFE8FUCguF6m1I/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+					<input class="input__field input__field--makiko" value="" type="text" dir="auto" name="entry.328940912" id="entry_328940912" aria-label="Full Name? First Last " title="">
 					<label class="input__label input__label--makiko" for="input-16">
-						<span class="input__label-content input__label-content--makiko">CERTIFYING MESSAGE</span>
+						<span class="input__label-content input__label-content--makiko">CERTIFYING MESSAGE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (LIMIT MESSAGE TO 40 CHARS)</span>
 					</label>
 				</span>
 			</section>
@@ -58,8 +61,9 @@
 							<h4>USE YOUR MOUSE OR FINGER TO SIGN BELOW</h4>	
 							<canvas id="SketchPad" width="700" height="100" style="border:3px solid white;"></canvas>
 							<div class="morph-button morph-button-overlay morph-button-fixed">
-								<button type="button" style="background-color:#e85657"><a href="progress.html" style="color:white">Submit</a></button>
+								<button class="btn btn-action" type="submit" style="background-color:#e85657">Submit</button>
 							</div>
+						</form>
 						</div>
 					</div>
 				</div><!-- morph-button -->
