@@ -10,7 +10,7 @@
 	position: relative;
 	padding: 0 1em;
 	border: none;
-	background-color: #24ae92;
+	background-color: #26b99a;
 	color: #f9f6e5;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -108,7 +108,7 @@
 
 .morph-button-overlay .morph-content {
 	overflow: hidden;
-	background: #24ae92;
+	background: #26b99a;
 }
 
 .morph-button-overlay.open .morph-content {
@@ -172,7 +172,7 @@
 
 .morph-button-modal-1 > button,
 .morph-button-modal-1 .morph-content {
-	background-color: #24ae92;
+	background-color: #26b99a;
 }
 
 .morph-button-modal-2 > button,
@@ -190,7 +190,7 @@
 .morph-button-modal-4 > button,
 .morph-button-modal-4 .morph-content {
 	background-color: #faf1e0;
-	color: #24ae92;
+	color: #26b99a;
 }
 
 .morph-button-modal-4 > button span,
@@ -288,7 +288,7 @@
 
 .morph-button-inflow-1 .morph-content .morph-clone {
 	color: #f9f6e5;
-	background: #24ae92;
+	background: #26b99a;
 }
 
 .morph-button-inflow-2 {
@@ -349,7 +349,7 @@
 }
 
 .morph-button-sidebar .morph-content {
-	background: #24ae92;
+	background: #26b99a;
 }
 
 .morph-button-sidebar.open .morph-content {
@@ -418,7 +418,7 @@
 	left: 0;
 	margin: 0;
 	height: 100%;
-	background: #24ae92;
+	background: #26b99a;
 	overflow: auto;
 }
 

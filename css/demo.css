@@ -35,13 +35,6 @@ body {
 	font-family: 'Lato', Arial, sans-serif;
 }
 
-#SketchPad
-{
-	border-color: black;
-	border-width: 3px;
-	border-styl: solid;
-}
-
 .darkcontainer {
 	background: #343636;
 }
@@ -53,7 +46,7 @@ body {
 .bgcolor-3 { background: #343636; }
 
 a, button {
-	color: #24ae92;
+	color: #26b99a;
 	text-decoration: none;
 	outline: none;
 }
